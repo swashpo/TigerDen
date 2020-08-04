@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+
+
+
+<style>
+div.ex1 {
+  width:900px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+div.ex2 {
+  max-width:500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="img/homepage_allcolleges.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    TigerDen
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Forbes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">First</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Rocky</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Mathey</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Whitman</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Butler</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<img src="img/rock.png" style="width:300px;height:100px;">
+
+<div style="text-align:right">
+<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</div>
+
+
+<div style="text-align:center">
+<div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Filter
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Most Recent</a>
+    <a class="dropdown-item" href="#">Most Views</a>
+  </div>
+</div>
+
+<p>
+
+</div>
+
+<div class="ex1">
+
+  <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Wow, Princeton is amazing. It's such a beautiful campus!
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <div class="card">
+  <h5 class="card-header">Tammy Tiger is at a Table with <em>3</em> other people</h5>
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">Last active 8:00 am</h6>
+    <a href="#" class="btn btn-primary">Join Tammy</a>
+  </div>
+      </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Hey everyone check out Generic Performance Group's performance tomorrow, socially distanced on...
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+       <div class="card">
+  <h5 class="card-header">Tiffany Tiger is <strong><em>NOT currently at a Table</em></strong></h5>
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">Last active 8:00 am</h6>
+    <a href="#" class="btn btn-primary">Start Table</a>
+  </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          I'm a freshman, and I'm not quite sure what's going on here. Could anyone help me?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <div class="card">
+  <h5 class="card-header">Thomas Tiger is at a <strong><em>FULL</em></strong> Table with <em>4</em> other people</h5>
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">Last active 8:00 am</h6>
+    <a href="#" class="btn btn-primary">Join Thomas</a>
+  </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!--- Jumbotron -->
+
+
+<!--- Welcome Section -->
+
+
+<!--- Three Column Section -->
+
+
+<!--- Two Column Section -->
+
+
+<!--- Fixed background -->
+
+
+<!--- Emoji Section -->
+
+  
+<!--- Meet the team -->
+
+
+<!--- Cards -->
+
+
+<!--- Two Column Section -->
+
+
+<!--- Connect -->
+
+
+<!--- Footer -->
+
+
+
+
+</body>
+</html>
+
+
+
+
+
